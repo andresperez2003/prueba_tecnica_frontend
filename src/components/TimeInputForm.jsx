@@ -37,7 +37,7 @@ const TimeInputForm = () => {
 
   return (
     <Container className="d-flex justify-content-center align-items-center min-vh-100">
-      <div style={{ display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", height: "100vh" }}>
+      <div style={{ display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", height: "87vh" }}>
         <h1 className="visually-hidden">Serie Fibonacci</h1>
         { showAutomatic && <Clock />}
         { showAutomatic &&
