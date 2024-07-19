@@ -15,7 +15,7 @@ useEffect(() => {
 const handleData= async()=>{
     
     try {
-        const responde = await fetch('https://prueba-tecnica-43xd.onrender.com/api/v1/fibonacci', {
+        const responde = await fetch('https://prueba-tecnica-o5fu.onrender.com/api/v1/fibonacci', {
           method: 'GET',
           headers: {
             'Content-Type': 'application/json',

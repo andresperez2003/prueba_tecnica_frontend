@@ -23,7 +23,7 @@ const TimeInputForm = () => {
   const handleAutoClick = async () => {
     try {
       setAutomatic(true)
-      const responde = await fetch('https://prueba-tecnica-43xd.onrender.com/api/v1/fibonacciAutomatic', {
+      const responde = await fetch('https://prueba-tecnica-o5fu.onrender.com/api/v1/fibonacciAutomatic', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

@@ -18,7 +18,7 @@ const TimeInput = () => {
 
         }else{
             try {
-                const response = await fetch('https://prueba-tecnica-43xd.onrender.com/api/v1/fibonacciUser', {
+                const response = await fetch('https://prueba-tecnica-o5fu.onrender.com/api/v1/fibonacciUser', {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json',
